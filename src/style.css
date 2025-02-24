@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
+
+body {
+
+    background: #519951;
+}
+
+.perant {
+    padding: 30px 20px;
+}
+
+.tsker {
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+
+    margin-bottom: 10px;
+    background: #cdf8bb;
+
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+
+    background: #71ff35;
+
+    color: black;
+    font-weight: 600;
+}
+
+button a {
+    color: #000;
+    text-decoration: none;
+}
+
+::placeholder {
+    color: black;
+}
+
+.showtask {
+    height: auto;
+
+    margin-bottom: 30px;
+}
+
+.showtask ul {
+    list-style-type: none;
+}
+
+.showtask ul li {
+    background: #cef8a7;
+    padding: 8px 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.repo {
+    height: auto;
+    border-radius: 10px;
+
+
+    overflow-x: scroll;
+    overscroll-behavior-y: none;
+
+    padding: 10px;
+}
+
+.repo .repochild {
+    width: 200%;
+    height: 40vh;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.repo .repochild span {
+    background: rgb(255, 240, 240);
+    width: 20px;
+    height: 20px;
+
+    margin: 2px;
+
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.repo .repochild span::after {
+    content: '';
+}
+
+.repo .repochild span.done {
+    background-color: #071800;
+}
+
+.singletodo {
+    padding: 40px;
+}
+
+.singletodo h1,
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.groupofbtn {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.renkOfTask {
+    margin-top: 15%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardofrenk {
+    background: #cdf8bb;
+    padding: 20px;
+
+    width: 45%;
+
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cardofrenk p {
+    font-size: 12px;
+}

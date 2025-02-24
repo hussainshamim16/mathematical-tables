@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+
+    <div class="perant">
+        <div class="tsker">
+            <h1>add task your day</h1>
+            <form onsubmit="tasksubmit()" action="javascript:void(0)">
+                <input type="text" name="task name" id="taskname" placeholder="task name">
+                <input type="text" name="task name" id="taskdesc" placeholder="task description">
+                <input type="date" name="task name" id="taskstartdate" placeholder="start date">
+                <input type="date" name="task name" id="taskenddate" placeholder="end date">
+                <button 
+                type="submit">add</button>
+            </form>
+        </div>
+
+        <div class="showtask">
+            <h3>your task</h3>
+            <ul id="taskul">
+               <h2 class="404">
+                No Task Found !
+               </h2>
+            </ul>
+        </div>
+
+        <div class="dailyrejistration">
+
+            <h3>
+                daily
+            </h3>
+
+<div class="repo">
+   <div class="repochild" id="repos">
+    <span></span>
+   </div>
+</div>
+
+</div>
+<div class="singletodo">
+    <div class="content">
+        <h1 id="tasktitle">
+            hussain shamim
+        </h1>
+        <p id="taskdescriptin">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolore, temporibus voluptas, at, iure earum soluta aperiam nesciunt vero provident necessitatibus quibusdam eligendi cumque. Alias, velit, explicabo laudantium consequuntur nemo placeat cumque debitis fugiat aliquid vero asperiores sint facilis dolorem tenetur sit voluptate assumenda quis eos officiis labore! Rerum, et!
+        </p>
+    </div>
+    <div class="groupofbtn">
+        <button onclick="edit()">edit</button>
+        <button onclick="compelete(this)">complete</button>
+        <button onclick="today()">tody done</button>
+        <button onclick="taskdel(this)">delete</button>
+    </div>
+    <div class="renkOfTask">
+        <div class="cardofrenk">
+            <h4>23/2/2025</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, commodi iste fuga rerum adipisci veniam delectus nihil quos obcaecati sunt!</p>
+            <h5>10:00 Am</h5>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="./src/index.js" type="module"></script>
+</body>
+
+</html>
